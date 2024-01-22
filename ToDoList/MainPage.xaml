@@ -10,8 +10,7 @@
           RowSpacing="10">
 
         <Image Grid.ColumnSpan="2" 
-               Source="dotnet_bot.png"
-               BackgroundColor="Orange"/>
+               Source="check.png"/>
 
         <Entry Placeholder="Enter task" 
                Grid.Row="1"/>
