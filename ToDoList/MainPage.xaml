@@ -5,7 +5,9 @@
 
     <Grid RowDefinitions="100, Auto, *"
           ColumnDefinitions=".75*, .25*"
-          Padding="10">
+          Padding="10"
+          ColumnSpacing="10"
+          RowSpacing="10">
 
         <Image Grid.ColumnSpan="2" 
                Source="dotnet_bot.png"
