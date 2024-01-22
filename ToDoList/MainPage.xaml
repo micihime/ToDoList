@@ -4,11 +4,12 @@
              x:Class="ToDoList.MainPage">
 
     <Grid RowDefinitions="100, Auto, *"
-          ColumnDefinitions=".75*, .25*">
+          ColumnDefinitions=".75*, .25*"
+          Padding="10">
 
         <Image Grid.ColumnSpan="2" 
-               Source="dotnet_bot.png"/>
-        <!--BackgroundColor="Orange"-->
+               Source="dotnet_bot.png"
+               BackgroundColor="Orange"/>
 
         <Entry Placeholder="Enter task" 
                Grid.Row="1"/>
