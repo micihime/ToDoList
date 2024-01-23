@@ -26,5 +26,12 @@ namespace ToDoList.ViewModels
             Items.Add(Text);
             Text = String.Empty;
         }
+
+        [RelayCommand]
+        void Delete(string s)
+        { 
+            if (Items.Contains(s))
+                Items.Remove(s);
+        }
     }
 }
