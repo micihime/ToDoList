@@ -1,6 +1,6 @@
 # ToDoList
 
-Created as a learning project, SimpleTasks allows you to manage your daily tasks effortlessly.
+Created as a learning project, ToDoList allows you to manage your daily tasks effortlessly.
 
 Key Features:
 1. Add Items
